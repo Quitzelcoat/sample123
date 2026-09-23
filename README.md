@@ -16,19 +16,23 @@ A responsive front-end sample site for a nonprofit immigration law clinic that s
 - Donation amount picker, newsletter signup and a back-to-top button
 - Accessibility: skip link, ARIA attributes, keyboard focus styles, `prefers-reduced-motion` support
 
+## Live site
+
+https://quitzelcoat.github.io/sample123/lantway-inc/index.html
+
 ## Run locally
 
-Open `index.html` in a browser, or serve the folder:
+Open `lantway-inc/index.html` in a browser, or serve the folder:
 
 ```bash
 python3 -m http.server 8000
-# then visit http://localhost:8000
+# then visit http://localhost:8000/lantway-inc/
 ```
 
 ## Files
 
 | File | Purpose |
 | --- | --- |
-| `index.html` | Page structure and content |
-| `styles.css` | Design system (CSS variables), layout and responsive rules |
-| `script.js` | Interactions (navigation, counters, filters, slider, form validation) |
+| `lantway-inc/index.html` | Page structure and content |
+| `lantway-inc/styles.css` | Design system (CSS variables), layout and responsive rules |
+| `lantway-inc/script.js` | Interactions (navigation, counters, filters, slider, form validation) |
