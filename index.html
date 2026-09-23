@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lanternway Immigrant Legal Clinic provides free and low-cost immigration legal help to low-income individuals and families.">
+  <title>Lanternway Immigrant Legal Clinic</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Top utility bar -->
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <p>Free consultations for eligible low-income clients &middot; Se habla español</p>
+      <div class="topbar__links">
+        <a href="#help">Get Help</a>
+        <a href="#involved">Volunteer</a>
+        <a href="#donate" class="topbar__donate">Donate</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header / navigation -->
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a href="#top" class="logo" aria-label="Lanternway home">
+        <svg class="logo__mark" viewBox="0 0 40 40" aria-hidden="true">
+          <circle cx="20" cy="20" r="19" fill="currentColor"/>
+          <path d="M20 8c-3 4-6 7-6 11a6 6 0 0 0 12 0c0-4-3-7-6-11z" fill="#f4b942"/>
+          <rect x="14" y="27" width="12" height="3" rx="1.5" fill="#fff"/>
+        </svg>
+        <span class="logo__text">
+          <strong>Lanternway</strong>
+          <small>Immigrant Legal Clinic</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="sr-only">Menu</span>
+      </button>
+
+      <nav id="primary-nav" class="nav" aria-label="Primary">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#process">How It Works</a></li>
+          <li><a href="#stories">Stories</a></li>
+          <li><a href="#resources">Resources</a></li>
+          <li><a href="#help" class="btn btn--primary btn--sm">Request Help</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <span class="eyebrow">Justice shouldn't depend on income</span>
+          <h1>Trusted immigration legal help for every family.</h1>
+          <p class="lead">Lanternway provides free and low-cost legal services to immigrants and refugees, from green cards and citizenship to asylum and deportation defense.</p>
+          <div class="hero__actions">
+            <a href="#help" class="btn btn--accent">Request a Free Consultation</a>
+            <a href="#services" class="btn btn--ghost">Explore Our Services</a>
+          </div>
+          <ul class="hero__langs" aria-label="Languages we serve">
+            <li>English</li><li>Español</li><li>中文</li><li>العربية</li><li>Kreyòl</li><li>اردو</li>
+          </ul>
+        </div>
+        <div class="hero__card" aria-label="Upcoming clinic">
+          <h2>Next Walk-In Clinic</h2>
+          <p class="hero__date"><span>Sat</span> Oct 10</p>
+          <p>10:00 AM – 2:00 PM<br>Community Resource Center, Room 204</p>
+          <p class="hero__note">No appointment needed. Bring any immigration documents you have.</p>
+          <a href="#help" class="link-arrow">Can't make it? Book online</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Alert banner -->
+    <section class="alert" role="region" aria-label="Important notice">
+      <div class="container alert__inner">
+        <strong>Know Your Rights:</strong>
+        <span>Beware of <em>notario</em> fraud. Only licensed attorneys and DOJ-accredited representatives can give you legal advice.</span>
+        <a href="#resources">Learn more &rarr;</a>
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats" id="about">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Our Impact</span>
+          <h2>Standing with immigrant communities since 2009</h2>
+          <p>Our attorneys, accredited representatives and volunteers work together to make sure no one faces the immigration system alone.</p>
+        </div>
+        <div class="stats__grid">
+          <div class="stat"><span class="stat__num" data-count="12500">0</span><span class="stat__label">Clients served</span></div>
+          <div class="stat"><span class="stat__num" data-count="3200">0</span><span class="stat__label">Citizenship applications filed</span></div>
+          <div class="stat"><span class="stat__num" data-count="94" data-suffix="%">0</span><span class="stat__label">Favorable case outcomes</span></div>
+          <div class="stat"><span class="stat__num" data-count="18">0</span><span class="stat__label">Languages spoken</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">What We Do</span>
+          <h2>Legal services</h2>
+          <p>Select a category to see how we can help.</p>
+        </div>
+
+        <div class="tabs" role="tablist" aria-label="Service categories">
+          <button role="tab" class="tab is-active" aria-selected="true" data-filter="all">All</button>
+          <button role="tab" class="tab" aria-selected="false" data-filter="family">Family &amp; Status</button>
+          <button role="tab" class="tab" aria-selected="false" data-filter="humanitarian">Humanitarian</button>
+          <button role="tab" class="tab" aria-selected="false" data-filter="defense">Defense</button>
+        </div>
+
+        <div class="cards">
+          <article class="card" data-category="family">
+            <div class="card__icon" aria-hidden="true">🏠</div>
+            <h3>Family-Based Petitions</h3>
+            <p>Help reuniting with loved ones through family petitions, adjustment of status and consular processing.</p>
+            <a href="#help" class="link-arrow">Get started</a>
+          </article>
+          <article class="card" data-category="family">
+            <div class="card__icon" aria-hidden="true">🇺🇸</div>
+            <h3>Citizenship &amp; Naturalization</h3>
+            <p>Eligibility screening, N-400 preparation, fee waiver requests and interview preparation.</p>
+            <a href="#help" class="link-arrow">Get started</a>
+          </article>
+          <article class="card" data-category="family">
+            <div class="card__icon" aria-hidden="true">🪪</div>
+            <h3>Green Card Renewals</h3>
+            <p>Assistance with renewing or replacing permanent resident cards and removing conditions.</p>
+            <a href="#help" class="link-arrow">Get started</a>
+          </article>
+          <article class="card" data-category="humanitarian">
+            <div class="card__icon" aria-hidden="true">🕊️</div>
+            <h3>Asylum &amp; Refugee Support</h3>
+            <p>Representation for people fleeing persecution, including affirmative and defensive asylum cases.</p>
+            <a href="#help" class="link-arrow">Get started</a>
+          </article>
+          <article class="card" data-category="humanitarian">
+            <div class="card__icon" aria-hidden="true">🛡️</div>
+            <h3>U &amp; T Visas, VAWA</h3>
+            <p>Protection for survivors of crime, domestic violence and human trafficking.</p>
+            <a href="#help" class="link-arrow">Get started</a>
+          </article>
+          <article class="card" data-category="humanitarian">
+            <div class="card__icon" aria-hidden="true">🎓</div>
+            <h3>DACA &amp; TPS</h3>
+            <p>Renewals and new filings for Deferred Action and Temporary Protected Status applicants.</p>
+            <a href="#help" class="link-arrow">Get started</a>
+          </article>
+          <article class="card" data-category="defense">
+            <div class="card__icon" aria-hidden="true">⚖️</div>
+            <h3>Deportation Defense</h3>
+            <p>Representation in immigration court for people facing removal proceedings.</p>
+            <a href="#help" class="link-arrow">Get started</a>
+          </article>
+          <article class="card" data-category="defense">
+            <div class="card__icon" aria-hidden="true">📋</div>
+            <h3>Know Your Rights Trainings</h3>
+            <p>Free community workshops for schools, congregations and workplaces.</p>
+            <a href="#resources" class="link-arrow">See schedule</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section class="process" id="process">
+      <div class="container">
+        <div class="section-head section-head--light">
+          <span class="eyebrow">How It Works</span>
+          <h2>Getting help is simple</h2>
+        </div>
+        <ol class="steps">
+          <li class="step">
+            <span class="step__num">1</span>
+            <h3>Reach out</h3>
+            <p>Fill out our short intake form, call our hotline, or visit a walk-in clinic.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">2</span>
+            <h3>Free screening</h3>
+            <p>A member of our team reviews your situation and checks eligibility for services.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">3</span>
+            <h3>Meet your advocate</h3>
+            <p>You're matched with an attorney or accredited representative who speaks your language.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">4</span>
+            <h3>We stand with you</h3>
+            <p>We prepare your case, file paperwork and support you until your case is resolved.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Stories -->
+    <section class="stories" id="stories">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Client Stories</span>
+          <h2>Voices from our community</h2>
+        </div>
+        <div class="slider" aria-roledescription="carousel" aria-label="Client stories">
+          <div class="slider__track">
+            <figure class="quote is-active">
+              <blockquote>“I was afraid to ask for help because I couldn't afford a lawyer. Lanternway walked me through every step, and today I'm a U.S. citizen.”</blockquote>
+              <figcaption><strong>Maria G.</strong> · Naturalized 2024</figcaption>
+            </figure>
+            <figure class="quote">
+              <blockquote>“They explained everything in Arabic so my parents could understand. We finally feel safe making plans for our future.”</blockquote>
+              <figcaption><strong>Omar K.</strong> · Asylum granted</figcaption>
+            </figure>
+            <figure class="quote">
+              <blockquote>“My DACA renewal was due in two weeks. The team got it filed on time and never made me feel rushed or judged.”</blockquote>
+              <figcaption><strong>Daniel R.</strong> · DACA recipient</figcaption>
+            </figure>
+          </div>
+          <div class="slider__controls">
+            <button class="slider__btn" data-dir="-1" aria-label="Previous story">&larr;</button>
+            <div class="slider__dots" role="tablist"></div>
+            <button class="slider__btn" data-dir="1" aria-label="Next story">&rarr;</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Get help form -->
+    <section class="help" id="help">
+      <div class="container help__inner">
+        <div class="help__info">
+          <span class="eyebrow">Request Help</span>
+          <h2>Tell us how we can help</h2>
+          <p>Submit this confidential form and a team member will contact you within 2 business days. Your information is never shared with immigration authorities.</p>
+          <ul class="contact-list">
+            <li><span aria-hidden="true">📞</span> Hotline: (555) 010-2468</li>
+            <li><span aria-hidden="true">✉️</span> help@lanternway.example</li>
+            <li><span aria-hidden="true">🕘</span> Mon–Fri, 9:00 AM – 5:00 PM</li>
+          </ul>
+        </div>
+
+        <form class="form" id="intake-form" novalidate>
+          <div class="form__row">
+            <div class="field">
+              <label for="name">Full name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required>
+              <span class="field__error" aria-live="polite"></span>
+            </div>
+            <div class="field">
+              <label for="phone">Phone number</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" required>
+              <span class="field__error" aria-live="polite"></span>
+            </div>
+          </div>
+          <div class="form__row">
+            <div class="field">
+              <label for="email">Email <span class="optional">(optional)</span></label>
+              <input id="email" name="email" type="email" autocomplete="email">
+              <span class="field__error" aria-live="polite"></span>
+            </div>
+            <div class="field">
+              <label for="language">Preferred language</label>
+              <select id="language" name="language">
+                <option>English</option>
+                <option>Español</option>
+                <option>中文</option>
+                <option>العربية</option>
+                <option>Kreyòl</option>
+                <option>اردو</option>
+                <option>Other</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="service">What do you need help with?</label>
+            <select id="service" name="service" required>
+              <option value="">Select a service…</option>
+              <option>Family-based petition</option>
+              <option>Citizenship / naturalization</option>
+              <option>Green card renewal</option>
+              <option>Asylum</option>
+              <option>U / T visa or VAWA</option>
+              <option>DACA / TPS</option>
+              <option>Deportation defense</option>
+              <option>Not sure</option>
+            </select>
+            <span class="field__error" aria-live="polite"></span>
+          </div>
+          <div class="field">
+            <label for="message">Briefly describe your situation</label>
+            <textarea id="message" name="message" rows="4" maxlength="600"></textarea>
+            <span class="field__hint"><span id="char-count">0</span>/600</span>
+          </div>
+          <label class="checkbox">
+            <input type="checkbox" id="income" name="income">
+            <span>My household income is at or below 200% of the federal poverty guidelines.</span>
+          </label>
+          <button type="submit" class="btn btn--primary btn--block">Submit Request</button>
+          <p class="form__success" role="status" hidden>Thank you! Your request has been received. We'll contact you within 2 business days.</p>
+        </form>
+      </div>
+    </section>
+
+    <!-- Resources / FAQ -->
+    <section class="resources" id="resources">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Resources</span>
+          <h2>Frequently asked questions</h2>
+        </div>
+        <div class="faq">
+          <details>
+            <summary>Are your services really free?</summary>
+            <p>Most services are free for clients whose household income is at or below 200% of the federal poverty guidelines. For others, we offer low-cost services on a sliding scale.</p>
+          </details>
+          <details>
+            <summary>Will contacting you affect my immigration case?</summary>
+            <p>No. Everything you share with us is confidential and protected. We do not share information with immigration enforcement.</p>
+          </details>
+          <details>
+            <summary>What documents should I bring to a consultation?</summary>
+            <p>Bring a photo ID, your passport, any immigration documents (notices, visas, cards) and any letters you've received from USCIS or immigration court.</p>
+          </details>
+          <details>
+            <summary>How do I recognize notario fraud?</summary>
+            <p>Be cautious of anyone who promises guaranteed results, asks you to sign blank forms, or isn't a licensed attorney or DOJ-accredited representative.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Get involved / donate -->
+    <section class="cta" id="involved">
+      <div class="container cta__grid">
+        <div class="cta__box">
+          <h2>Volunteer with us</h2>
+          <p>Attorneys, law students, interpreters and community members help us serve thousands of families every year.</p>
+          <a href="#help" class="btn btn--ghost-light">Join Our Volunteers</a>
+        </div>
+        <div class="cta__box cta__box--accent" id="donate">
+          <h2>Support our work</h2>
+          <p>$50 covers the filing costs for one fee-waiver application. Every gift keeps a family together.</p>
+          <div class="amounts" role="group" aria-label="Donation amount">
+            <button class="amount">$25</button>
+            <button class="amount is-active">$50</button>
+            <button class="amount">$100</button>
+            <button class="amount">$250</button>
+          </div>
+          <a href="#donate" class="btn btn--dark donate-btn">Donate $50</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+      <div class="container newsletter__inner">
+        <div>
+          <h2>Stay informed</h2>
+          <p>Get policy updates, clinic dates and Know Your Rights alerts.</p>
+        </div>
+        <form class="newsletter__form" id="newsletter-form">
+          <label for="nl-email" class="sr-only">Email address</label>
+          <input id="nl-email" type="email" placeholder="Your email address" required>
+          <button type="submit" class="btn btn--accent">Subscribe</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <a href="#top" class="logo logo--light">
+          <svg class="logo__mark" viewBox="0 0 40 40" aria-hidden="true">
+            <circle cx="20" cy="20" r="19" fill="currentColor"/>
+            <path d="M20 8c-3 4-6 7-6 11a6 6 0 0 0 12 0c0-4-3-7-6-11z" fill="#f4b942"/>
+            <rect x="14" y="27" width="12" height="3" rx="1.5" fill="#0b2545"/>
+          </svg>
+          <span class="logo__text"><strong>Lanternway</strong><small>Immigrant Legal Clinic</small></span>
+        </a>
+        <p class="footer__about">Free and low-cost immigration legal services for low-income immigrants and refugees.</p>
+      </div>
+      <div>
+        <h3>Services</h3>
+        <ul>
+          <li><a href="#services">Citizenship</a></li>
+          <li><a href="#services">Asylum</a></li>
+          <li><a href="#services">DACA &amp; TPS</a></li>
+          <li><a href="#services">Deportation Defense</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Organization</h3>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#stories">Client Stories</a></li>
+          <li><a href="#involved">Volunteer</a></li>
+          <li><a href="#donate">Donate</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul>
+          <li>(555) 010-2468</li>
+          <li>help@lanternway.example</li>
+          <li>123 Example Street, Suite 400</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>&copy; <span id="year"></span> Lanternway Immigrant Legal Clinic. Sample front-end project, fictional organization.</p>
+      <p>This website provides general information and is not legal advice.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to top">&uarr;</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
