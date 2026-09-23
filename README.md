@@ -1,8 +1,8 @@
-# Lanternway Immigrant Legal Clinic: Sample Website
+# Lantway Immigrant Inc.: Sample Website
 
-A responsive front-end sample site for a fictional nonprofit immigration law clinic that serves low-income immigrants and refugees. It's built with plain **HTML, CSS and JavaScript**, with no frameworks or build step.
+A responsive front-end sample site for a nonprofit immigration law clinic that serves low-income immigrants and refugees. It's built with plain **HTML, CSS and JavaScript**, with no frameworks or build step.
 
-> Lanternway is a made-up organization, and all names, numbers and contact details are placeholders.
+> Built as a front-end sample project. Client stories and impact numbers are illustrative.
 
 ## Features
 

@@ -1,4 +1,4 @@
-// Lanternway Immigrant Legal Clinic — interactions (vanilla JS, no dependencies)
+// Lantway Immigrant Inc. — interactions (vanilla JS, no dependencies)
 (function () {
   "use strict";
 
